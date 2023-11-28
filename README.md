@@ -22,14 +22,17 @@
 ![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=ffffff)
 ![LaTeX](http://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=ffffff)
 
-![Most used languages](https://github-readme-stats.vercel.app/api/top-langs/?username=superx101&layout=compact&hide_border=true&langs_count=10)
+#### Stats
+
+<div style="display: flex; justify-content: center;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=superx101&layout=compact&hide_border=false&langs_count=10" alt="Most used languages" height="200">
+    <img src="https://github-readme-stats.vercel.app/api?username=superx101&show_icons=true" alt="Suyash github stats" height="200">
+</div>
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake.svg">
-</picture>
-
-
-
+</picture
 </div>
