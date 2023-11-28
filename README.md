@@ -24,11 +24,8 @@
 
 #### Stats
 
-<div style="display: flex; justify-content: center;">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=superx101&layout=compact&hide_border=false&langs_count=10" alt="Most used languages" height="200">
-    <img src="https://github-readme-stats.vercel.app/api?username=superx101&show_icons=true" alt="Suyash github stats" height="200">
-</div>
-
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=superx101&layout=compact&hide_border=false&langs_count=10" alt="Most used languages" height="160">
+<img src="https://github-readme-stats.vercel.app/api?username=superx101&show_icons=true" alt="Suyash github stats" height="160">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake-dark.svg">
