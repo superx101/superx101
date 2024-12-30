@@ -35,7 +35,7 @@
                     <a href="https://www.python.org/" target="_blank"><img style="margin: 10px"
                             src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python"
                             height="50" /></a>
-                    <a href="https://www.lua.com/" target="_blank"><img style="margin: 10px"
+                    <a href="https://www.lua.org/" target="_blank"><img style="margin: 10px"
                             src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Lua-Logo.svg/600px-Lua-Logo.svg.png"
                             alt="Lua" height="50" /></a>
                 </div>
