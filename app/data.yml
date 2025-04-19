@@ -1,0 +1,61 @@
+languages:
+  - id: C%2B%2B
+    color: 00599C
+    logo: c%2B%2B
+    link: https://www.cplusplus.com/
+
+  - id: C%23
+    color: 641c74
+    logo: c-sharp
+    link: https://docs.microsoft.com/en-us/dotnet/csharp/
+
+  - id: Java
+    color: ED8B00
+    logo: openjdk
+    link: https://www.java.com/
+
+  - id: Kotlin
+    color: ac24e4
+    logo: kotlin
+    link: https://kotlinlang.org/
+
+  - id: TypeScript
+    color: 007ACC
+    logo: typescript
+    link: https://www.typescriptlang.org/
+
+  - id: JavaScript
+    color: F7DF1E
+    logo: javascript
+    link: https://www.javascript.com/
+
+  - id: Python
+    color: 14354C 
+    logo: python
+    link: https://www.python.org/
+
+  - id: Lua
+    color: 2C2D72
+    logo: lua
+    link: https://www.lua.org/
+
+skills:
+  - name: Unity
+    img: https://profilinator.rishav.dev/skills-assets/unity.png
+    link: https://unity.com/
+
+  - name: Vue
+    img: https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg
+    link: https://vuejs.org/
+
+  - name: Spring
+    img: https://profilinator.rishav.dev/skills-assets/springio-icon.svg
+    link: https://docs.spring.io/spring-framework/docs
+
+  - name: Android
+    img: https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg
+    link: https://www.android.com/intl/en_in/
+
+  - name: Photoshop
+    img: https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg
+    link: https://www.adobe.com/in/products/photoshop.html

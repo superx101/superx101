@@ -1,0 +1,72 @@
+<h3 align="center">Hi, I'm superx101</h3>
+
+<div style="float: right;">
+    <img src="https://github-readme-stats.vercel.app/api?username=superx101&show_icons=true" 
+         alt="sueprx101 github stats" width="287px" style="display: block; margin-bottom: 1rem;">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=superx101&layout=compact&hide_border=false&langs_count=10"
+         alt="My most used languages" width="287px" style="display: block;">
+</div>
+
+
+<h4>About</h4>
+
+<div>
+    <ul>
+        <li>🌱 I'm interested in computer graphics.</li>
+        <li>🏢 I'm currently programing with <strong>Unity</strong> / <strong>UE</strong>.</li>
+        <li>💬 I like to talk about <strong>CG</strong>, <strong>Compiler</strong> and <strong>Kotlin</strong></li>
+    </ul>
+</div>
+
+
+<h4>Languages</h4>
+
+<p align="left" style="{{ styles.block }}">
+    {%- for lang in languages -%}
+    <span style="margin-right: 0.5rem">
+        <a href="{{ lang.link }}" target="_blank">
+            <img src="https://img.shields.io/badge/{{ lang.id }}-{{ lang.color }}?style=flat-square&logo={{ lang.logo }}&logoColor=white">
+        </a>
+    </span>
+    {%- endfor -%}
+</p>
+
+
+<h4>Skills</h4>
+
+<table style="{{ styles.block }}">
+  <tr>
+    {%- for skill in skills -%}
+      <td align="center" width="70">
+        <a href="{{ skill.link }}" target="_blank">
+          <img src="{{ skill.img }}" width="30" height="30" alt="{{ skill.name }}">
+        </a>
+        <br>{{ skill.name }}
+      </td>
+    {%- endfor -%}
+    <td  align="center" width="70">
+        etc.
+     </td>
+  </tr>
+</table>
+
+
+<h4>Commit</h4>
+
+<div align="left" style="{{ styles.block }}">
+  <picture>
+      <source media="(prefers-color-scheme: dark)"
+          srcset="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake-dark.svg">
+      <source media="(prefers-color-scheme: light)"
+          srcset="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake.svg">
+      <img height="150px" alt="github contribution grid snake animation"
+          src="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+
+<h4>Connect with me</h4>
+
+<div style="{{ styles.block }}">
+    <span> Currently supported only on GitHub</span>
+</div>
