@@ -33,6 +33,7 @@
   </img></div>
 <div>
   <h4>Skills</h4>
+  &nbsp;
   <table style="margin-left: 2rem;">
     <tr><td align="center" width="70">
         <a href="https://unity.com/" target="_blank">
