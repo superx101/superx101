@@ -19,6 +19,10 @@ const engine = new Liquid();
 let currentContent = '';
 let clients = [];
 
+function removeEmptyLines(str) {
+  return str.replace(/^\s*[\r\n]/gm, '');
+}
+
 function parseCss(content) {
   const parsed = css.parse(content);
   const styles = {};
@@ -39,7 +43,7 @@ function parseCss(content) {
   return styles;
 }
 
-const renderMarkdown = () => {
+function renderMarkdown() {
   try {
     const data = yaml.load(fs.readFileSync('data.yml', 'utf8'));
     const template = fs.readFileSync('template.liquid', 'utf8');
@@ -48,8 +52,9 @@ const renderMarkdown = () => {
 
     engine.parseAndRender(template, data)
       .then((content) => {
+        content = removeEmptyLines(content);
         currentContent = content;
-        fs.writeFileSync('dist.html', content);
+        fs.writeFileSync('dist.md', content);
         console.log('✅ dist updated');
 
         // Notify all connected clients
@@ -66,11 +71,11 @@ const renderMarkdown = () => {
   }
 };
 
-const processContent = (content) => {
-  // return markdownIt.render(
-  //   content.replace(/<html>([\s\S]*?)<\/html>/g, '<div class="html-section">$1</div>')
-  // );
-  return content;
+function processContent(content) {
+  return markdownIt.render(
+    content.replace(/<html>([\s\S]*?)<\/html>/g, '<div class="html-section">$1</div>')
+  );
+  // return content;
 };
 
 const watcher = chokidar.watch(['data.yml', 'template.liquid', 'style.css'], {
