@@ -64,6 +64,6 @@ skills:
     img: asset/photoshop.svg
     link: https://www.adobe.com/in/products/photoshop.html
 
-  - name: 3ds Max
+  - name: 3dsMax
     img: asset/3dsmax.svg
     link: https://www.autodesk.com/products/3ds-max/overview
