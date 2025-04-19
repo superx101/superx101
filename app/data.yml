@@ -40,30 +40,32 @@ languages:
     link: https://www.lua.org/
 
 skills:
-  - name: Unity
-    img: https://profilinator.rishav.dev/skills-assets/unity.png
-    link: https://unity.com/
+  - 
+    - name: Unity
+      img: https://profilinator.rishav.dev/skills-assets/unity.png
+      link: https://unity.com/
 
-  - name: Unreal
-    img: asset/unreal.svg
-    link: https://www.unrealengine.com/
+    - name: Unreal
+      img: asset/unreal.svg
+      link: https://www.unrealengine.com/
 
-  - name: Vue
-    img: asset/vue.png
-    link: https://vuejs.org/
+    - name: Vue
+      img: asset/vue.png
+      link: https://vuejs.org/
 
-  - name: Spring
-    img: https://profilinator.rishav.dev/skills-assets/springio-icon.svg
-    link: https://docs.spring.io/spring-framework/docs
+    - name: Spring
+      img: https://profilinator.rishav.dev/skills-assets/springio-icon.svg
+      link: https://docs.spring.io/spring-framework/docs
 
-  - name: Android
-    img: asset/android.svg
-    link: https://www.android.com/intl/en_in/
+    - name: Android
+      img: asset/android.svg
+      link: https://www.android.com/intl/en_in/
 
-  - name: Photoshop
-    img: asset/photoshop.svg
-    link: https://www.adobe.com/in/products/photoshop.html
+  -
+    - name: Photoshop
+      img: asset/photoshop.svg
+      link: https://www.adobe.com/in/products/photoshop.html
 
-  - name: 3dsMax
-    img: asset/3dsmax.svg
-    link: https://www.autodesk.com/products/3ds-max/overview
+    - name: 3dsMax
+      img: asset/3dsmax.svg
+      link: https://www.autodesk.com/products/3ds-max/overview

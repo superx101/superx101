@@ -1,18 +1,18 @@
 <h3 align="center">Hi, I'm superx101</h3>
 
-<table align="right" width="270rem">
+<table align="right" width="270">
   <tr>
     <td align="center">
       <img
         src="https://github-readme-stats.vercel.app/api?username=superx101&show_icons=true&hide_border=true"
-        alt="sueprx101 github stats" width="285rem">
+        alt="sueprx101 github stats" width="285">
     </td>
   </tr>
   <tr>
     <td align="center">
       <img
         src="https://github-readme-stats.vercel.app/api/top-langs/?username=superx101&hide_border=true&langs_count=10"
-        alt="My most used languages" width="285rem">
+        alt="My most used languages" width="285">
     </td>
   </tr>
 </table>
@@ -38,17 +38,19 @@
 <div>
   &nbsp;
   <h4>Skills</h4>
-  <table width="400rem">
+  <table>
+    {% for array in skills %}
     <tr>
-      {%- for skill in skills -%}
-      <td align="center" width="70rem">
+      {% for skill in array %}
+      <td align="center" width="70">
         <a href="{{ skill.link }}" target="_blank">
-          <img src="{{ skill.img }}" width="30rem" height="30rem" alt="{{ skill.name }}">
+          <img src="{{ skill.img }}" width="30" height="30" alt="{{ skill.name }}">
         </a>
         <br>{{ skill.name }}
       </td>
-      {%- endfor -%}
+      {% endfor %}
     </tr>
+    {% endfor %}
   </table>
 </div>
 
@@ -59,7 +61,7 @@
       srcset="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)"
       srcset="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake.svg">
-    <img height="150rem" alt="github contribution grid snake animation"
+    <img height="150" alt="github contribution grid snake animation"
       src="https://raw.githubusercontent.com/superx101/superx101/output/github-contribution-grid-snake.svg">
   </picture>
 </div>
