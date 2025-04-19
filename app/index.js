@@ -54,7 +54,7 @@ function renderMarkdown() {
       .then((content) => {
         content = removeEmptyLines(content);
         currentContent = content;
-        fs.writeFileSync('dist.md', content);
+        fs.writeFileSync('../README.md', content);
         console.log('✅ dist updated');
 
         // Notify all connected clients
