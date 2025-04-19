@@ -44,8 +44,12 @@ skills:
     img: https://profilinator.rishav.dev/skills-assets/unity.png
     link: https://unity.com/
 
+  - name: Unreal
+    img: asset/unreal.svg
+    link: https://www.unrealengine.com/
+
   - name: Vue
-    img: https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg
+    img: asset/vue.png
     link: https://vuejs.org/
 
   - name: Spring
@@ -53,9 +57,13 @@ skills:
     link: https://docs.spring.io/spring-framework/docs
 
   - name: Android
-    img: https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg
+    img: asset/android.svg
     link: https://www.android.com/intl/en_in/
 
   - name: Photoshop
-    img: https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg
+    img: asset/photoshop.svg
     link: https://www.adobe.com/in/products/photoshop.html
+
+  - name: 3ds Max
+    img: asset/3dsmax.svg
+    link: https://www.autodesk.com/products/3ds-max/overview

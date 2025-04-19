@@ -40,8 +40,13 @@
         </a>
         <br>Unity
       </td><td align="center" width="70">
+        <a href="https://www.unrealengine.com/" target="_blank">
+          <img src="asset/unreal.svg" width="30" height="30" alt="Unreal">
+        </a>
+        <br>Unreal
+      </td><td align="center" width="70">
         <a href="https://vuejs.org/" target="_blank">
-          <img src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" width="30" height="30" alt="Vue">
+          <img src="asset/vue.png" width="30" height="30" alt="Vue">
         </a>
         <br>Vue
       </td><td align="center" width="70">
@@ -51,14 +56,19 @@
         <br>Spring
       </td><td align="center" width="70">
         <a href="https://www.android.com/intl/en_in/" target="_blank">
-          <img src="https://profilinator.rishav.dev/skills-assets/android-original-wordmark.svg" width="30" height="30" alt="Android">
+          <img src="asset/android.svg" width="30" height="30" alt="Android">
         </a>
         <br>Android
       </td><td align="center" width="70">
         <a href="https://www.adobe.com/in/products/photoshop.html" target="_blank">
-          <img src="https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg" width="30" height="30" alt="Photoshop">
+          <img src="asset/photoshop.svg" width="30" height="30" alt="Photoshop">
         </a>
         <br>Photoshop
+      </td><td align="center" width="70">
+        <a href="https://www.autodesk.com/products/3ds-max/overview" target="_blank">
+          <img src="asset/3dsmax.svg" width="30" height="30" alt="3ds Max">
+        </a>
+        <br>3ds Max
       </td><td align="center" width="70">
         etc.
       </td>
